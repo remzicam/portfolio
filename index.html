@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remzi Data Science Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-4 fixed-top navbar-light bg-body">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h4 class="fw-bold">Remzi Çam</h4></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero -->
+    <div id="hero" class="section-padding divider">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-3">
+                    <img data-aos="fade-down" data-aos-delay="200" src="./assets/images/hero.png" class="mx-auto d-block img-fluid" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="fw-bold display-4" data-aos="fade-up">I AM A <br/> <span class="text-info">DATA SCIENTIST</span></h1>
+                    <a data-aos="fade-up" data-aos-delay="300" href="#work" class="btn btn-outline-info mr-2">My Work</a>
+                    <a data-aos="fade-up" data-aos-delay="300" href="https://www.linkedin.com/in/remzicam/" class="btn btn-outline-info mr-2"><i class="ri-linkedin-fill"></i></a>
+                    <a data-aos="fade-up" data-aos-delay="300" href="https://github.com/remzicam/" class="btn btn-outline-info mr-2"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work -->
+    <div id="work" class="section-padding divider">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold">Portfolio</h1>
+                        <p class="mx-auto">These projects are a culmination of my business and academic experience. 
+                            They represent my own ideas and creations.
+                            I am excited to share with you the skills and knowledge I have gained through my studies and work. 
+                            I have shared links (if appliacable) to the web app, Medium post, YouTube video, and GitHub repository for each of my projects. 
+                            I hope that you will find my projects informative and insightful.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/project-01.jpg" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">speech-to-text, text-to-speech, pytorch</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">AI Voice Chatbot App</h5></a>
+                        <a href="https://huggingface.co/spaces/remzicam/voicebot_german" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-apps-fill"></i></a>
+                        <a href="https://www.youtube.com/watch?v=_xfTRkh47TY" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-youtube-fill"></i></a>
+                        <a href="https://medium.com/@remzicam/building-and-deploying-ai-voice-chatbot-app-ecd3f4ffa6bb" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-medium-fill"></i></a>
+                        <a href="https://github.com/remzicam/medium-voicebot" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/project-02.jpg" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">gradio, huggingface, transformers, regex, scraping</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">TED Talks Summarizer App</h5></a>
+                        <a href="https://huggingface.co/spaces/remzicam/ted_talks_summarizer" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-apps-fill"></i></a>
+                        <a href="https://github.com/remzicam/ted_talks_summarizer" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/project-05.jpg" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info"> onxx, quantization</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Faster Model Inference Contribution</h5></a>
+                        <a href="https://huggingface.co/remzicam/xs_blenderbot_onnx" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-apps-fill"></i></a>
+                        <a href="https://github.com/remzicam/xs_blenderbot_onnx" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/project-03.jpg" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">git, conda, poetry, pre-commit, vscode</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Project Setup for Python</h5></a>
+                        <a href="https://medium.com/@remzicam/elevate-your-python-workflow-with-conda-environments-poetry-and-pre-commit-git-hooks-11c122801e5a" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-medium-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume -->
+    <div id="resume" class="section-padding divider">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold">About Me</h1>
+                        <p class="mx-auto">
+                            I am a data scientist with a diverse set of skills and experience.
+                            I have had the opportunity to work on a variety of exciting projects, including demand forecasting, predictive models, AI-based persona creation (NLP), benchmarking machine and deep learning models, analyzing datasets, explainable AI, and using visualization tools such as Tableau to communicate insights.
+                            I have also gained experience in project setup and management by implementing tools like GitLab and Confluence to organize and collaborate on projects.
+                            Besides, I wrote my thesis on leveraging multi-task learning to improve the performance of question and answering systems in the LegalTech field.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="200">
+                
+                <div class="col-md-3">
+                    <h5>Data Scientist</h5>
+                    <small class="text-info">2022</small>
+                </div>
+                <div class="col-md-9">
+                    <p class="mb-0">&bull; AI-based persona creation – NLP project
+                        <br>&bull; Model fine-tuning, text classification and emotion detection with transformers models (i.e. BERT, RoBERTa, T5)
+                        <br>&bull; Explainibility and interpretation of transformers models
+                        <br>&bull; Data visualization and dashboard creation with Tableau
+                        <br>&bull; Analyzing features and characteristics of datasets
+                        <br>&bull; Web-Crawling (Selenium-Beautiful Soup)
+                        <br>&bull; Project setup (GitLab, clean code, Confluence, Anaconda, Poetry, and Pre-commit)</p>
+                </div>
+            </div>
+
+            <div class="row mt-4 gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="300">
+                
+                <div class="col-md-3">
+                    <h5>Data Scientist Intern</h5>
+                    <small class="text-info">2021-2022</small>
+                </div>
+                <div class="col-md-6">
+                    <p class="mb-0">
+                        &bull; Data preparation and manipulation of complex datasets (Pandas)
+                        <br>&bull; Time series analysis and relevant features extraction
+                        <br>&bull; Demand forecasting for the automotive sector and automate the process
+                        <br>&bull; Benchmarking of Machine(sklearn)-Deep Learning (PyTorch) models
+                        <br>&bull; Data structuring and text analysis of customers' interviews (spaCy)
+                        <br>&bull; Code documentation and project presentation
+                    </p>
+                </div> 
+            </div>
+<!-- TODO: write names-->
+            <div class="row mt-4 gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-md-3">
+                    <h5>Master's Degree</h5>
+                    <small class="text-info">2020-2022</small>
+                </div>
+                <div class="col-md-9">
+                    <p class="mb-0">&bull; I pursued a Master's degree in M.Sc. Politics&Technology at Technical University of Munich.
+                        <br>&bull; I followed the path related to the data science modules. 
+                        <br>&bull; I was fortunate to have a program that included a significant focus on programming and hands-on projects.
+                        <br>&bull; Thesis title: Mapping Privacy Policy Question and Answering (Q&A) Systems with Multi-Task Learning (MTL):
+                            
+                            <br><span style='margin-left:24px'>• Q&A models on legal texts with NLP
+                            <br><span style='margin-left:24px'>• MTL models contain Q&A, Named Entity Recognition (NER), Multi-Class and Multi-Label Classification
+                            <br><span style='margin-left:24px'>• BERT and RoBERTa models with Pytorch
+                            <br><span style='margin-left:24px'>• MTL models optimization (i.e., gradient durgery)
+                            <br><span style='margin-left:24px'>• Testing MTL models robustness with out-of-domain samples
+                    </p>
+                    <!-- <button class="btn btn-outline-info me-2" type="button" data-target="#t1_details" 
+                        data-toggle="collapse">More<span class="fas fa-angle-down toggle-arrow ml-1"></span></button> -->
+                </div>
+            </div>
+        </div>
+
+    <!-- Contact -->
+    <div id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold">Contact Me</h1>
+                        <p class="mx-auto">Thank you for visiting my portfolio! If you have any questions,
+                                            please don't hesitate to reach out.</p>
+                            <a href="https://www.linkedin.com/in/remzicam/" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://github.com/remzicam/" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
